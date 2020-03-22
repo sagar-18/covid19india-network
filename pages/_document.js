@@ -35,10 +35,10 @@ export default class MyDocument extends Document {
         <GitHubForkRibbon
             position="right"
           color="green"
-            href="https://github.com/someshkar/covid19india-network"
+            href="https://india.coronacurfew.live"
             target="_blank"
           >
-            Fork me on GitHub
+            Live India Corona Tracker
           </GitHubForkRibbon> 
           <Main />
           <NextScript />
