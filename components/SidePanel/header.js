@@ -48,7 +48,7 @@ export default function Header(patient) {
   return (
     <Container>
       <Title>
-        coronacurfew.live Tracker Live <Dot>&nbsp;&middot;&nbsp;</Dot> 2H ago
+        coronacurfew.live Tracker Live <Dot>&nbsp;&middot;&nbsp;</Dot> 30Min ago
       </Title>
       <PatientContainer>
         <Image src={getIcon(patient)} />
