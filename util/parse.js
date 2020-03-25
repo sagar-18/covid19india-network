@@ -97,7 +97,7 @@ export function getIcon(patient) {
   }
 }
 
-function codeToLetter(code) {
+export const codeToLetter = (code) => {
   const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const codeStr = code.toString()
 
@@ -119,6 +119,7 @@ export const rowsToGraph = rows => {
       label: 'P' + row.patientId,
       shape: 'image',
       image: getIcon(row),
+      group: 'patient'
     }
 
     graph = dotProp.set(graph, 'nodes', list => [...list, node])
