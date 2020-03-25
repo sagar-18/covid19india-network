@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
         <GitHubForkRibbon
             position="right"
           color="green"
-            href="https://www.coronacurfew.in/"
+            href="https://india.coronacurfew.live/"
             target="_blank"
           >
             Live India Corona Tracker
